@@ -12,7 +12,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/node": "20.6.0",
@@ -29,6 +30,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "husky": "^8.0.3",
     "prettier": "^3.0.3"
   }
 }
