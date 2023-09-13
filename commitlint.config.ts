@@ -16,7 +16,7 @@ module.exports = {
     'footer-leading-blank': [1, 'always'],
     'footer-max-line-length': [2, 'always', 100],
     'header-max-length': [2, 'always', 100],
-    'scope-case': [2, 'always', 'lower-case'],
+    'scope-case': [2, 'always', 'pascal-case'],
     'subject-case': [
       2,
       'never',
@@ -24,7 +24,7 @@ module.exports = {
     ],
     'subject-empty': [2, 'never'],
     'subject-full-stop': [2, 'never', '.'],
-    'type-case': [2, 'always', 'lower-case'],
+    'type-case': [2, 'always', 'pascal-case'],
     'type-empty': [2, 'never'],
     'type-enum': [
       2,
