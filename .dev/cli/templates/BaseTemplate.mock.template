@@ -1,0 +1,9 @@
+import { I{name} } from './{name}';
+
+const base: I{name} = {
+  sampleTextProp: 'Hello world!',
+};
+
+export const mock{name}Props = {
+  base,
+};

@@ -1,0 +1,12 @@
+import React from 'react';
+import styles from './{name}.module.scss';
+
+export interface I{name} {
+  sampleTextProp: string;
+}
+
+const {name}: React.FC<I{name}> = ({ sampleTextProp }) => {
+  return <div className={styles.container}>{sampleTextProp}</div>;
+};
+
+export default {name};
